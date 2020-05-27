@@ -11,9 +11,17 @@ const sidebar = {
 			],
 		},
 		{
-			title: "Events",
+			title: "Member",
 			children: [
-				"/docs/Events/botUpdate",
+				"/docs/Member/",
+				"/docs/Member/user",
+			],
+		},
+		{
+			title: "TypeDefs",
+			children: [
+				"/docs/TypeDefs/snowflake",
+				"/docs/TypeDefs/ImageURLOptions",
 			],
 		},
 	]
