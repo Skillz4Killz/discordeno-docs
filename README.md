@@ -3,7 +3,7 @@ home: true
 heroImage: /images/Logo_Spaced.png
 heroText: Discordeno
 tagline: A Third Party Deno library for interacting with the Discord API.
-actionText: Getting Started →
+actionText: Start Building →
 actionLink: /docs/gettingstarted
 features:
 - title: Latest and Greatest JavaScript

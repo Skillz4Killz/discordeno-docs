@@ -12,11 +12,10 @@
     "url": "git+https://github.com/NTMNathan/discordeno-docs"
   },
   "keywords": [
-    "erelajs",
+    "discordeno",
     "documentation",
-    "docs",
-    "lavalink",
-    "client"
+    "discord",
+    "discordapi"
   ],
   "bugs": {
     "url": "https://github.com/skills4killz"
@@ -25,7 +24,7 @@
   "directories": {
     "doc": "docs"
   },
-  "author": "Connor Strand",
+  "author": "NTM Nathan @ NTM Development",
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.5.0"

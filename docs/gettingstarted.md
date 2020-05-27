@@ -1,9 +1,15 @@
 # Getting Started
 ---
 
-Discordeno aims for a simple, easy and stress-free interaction with the Discord API. Always supporting the latest verion to ensure stability, consistency and the prevention of backwards compatibility.
+Discordeno aims for a simple, easy and stress-free interaction with the Discord API. Always supporting the latest version to ensure stability, consistency and the prevention of backwards compatibility.
 
 Prefer reading over using this documentation website? Discordeno has built in Documentation in your VSCode Workspace as you code! The entire libraries documentation is automatically available to you through IntelliSense.
+
+## Links
+- [GitHub Repository](https://github.com/skillz4killz/discordeno)
+- [Deno Page](https://deno.land/x/discordeno)
+- [Website](https://discordeno.js.org/)
+
 
 ## Requirements
 
@@ -28,7 +34,6 @@ You can install Discordeno by importing:
 ```typescript
 import Client from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v4/module/client.ts";
 ```
-> You can always
 
 ## Example usage
 
@@ -57,7 +62,7 @@ const BotOptions = {
 Client(BotOptions);
 ```
 
-Alterntively, you can use boilerplate template repositories that were created by wonderful developers. This will get the base of your bot pre-built for you. Overtime, developers create other command frameworks for this library and they will be listed here:
+Alternatively, you can use boilerplate template repositories that were created by wonderful developers. This will get the base of your bot pre-built for you. Overtime, developers create other command frameworks for this library and they will be listed here:
 
 | Bot Name           | Developer          | Links | Description |
 |--------------------|--------------------|---------------------------------------------------------|-----|
