@@ -1,0 +1,36 @@
+{
+  "name": "erelajs-docs",
+  "version": "0.0.1",
+  "description": "Discordeno is a Deno ",
+  "scripts": {
+    "docs:dev": "vuepress dev",
+    "docs:build": "vuepress build"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strandxo/erela-docs.git"
+  },
+  "keywords": [
+    "erelajs",
+    "documentation",
+    "docs",
+    "lavalink",
+    "client"
+  ],
+  "bugs": {
+    "url": "https://github.com/skills4killz"
+  },
+  "homepage": "https://discordeno.js.org/",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "Connor Strand",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.0"
+  },
+  "dependencies": {
+    "vuepress-theme-yuu": "^2.3.0"
+  }
+}
