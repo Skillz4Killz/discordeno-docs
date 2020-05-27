@@ -1,7 +1,7 @@
 {
-  "name": "erelajs-docs",
+  "name": "discordeno-docs",
   "version": "0.0.1",
-  "description": "Discordeno is a Deno ",
+  "description": "Discordeno is a Deno Library for the Discord API",
   "scripts": {
     "docs:dev": "vuepress dev",
     "docs:build": "vuepress build"
@@ -9,7 +9,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/strandxo/erela-docs.git"
+    "url": "git+https://github.com/NTMNathan/discordeno-docs"
   },
   "keywords": [
     "erelajs",
