@@ -76,7 +76,7 @@ Open Sourced Bots:
 
 
 ## Tutorials
-Below you will find youtube playlists that display channels using Erela.js for their tutorials.
+Below you will find youtube playlists that display channels using Discordeno for their tutorials.
 
 Web-Mystery Tutorials:
 - <a href="https://web-mystery.com/articles/making-discord-bot-deno-and-discordeno" target="_blank">Making a Discord bot with Deno and Discordeno</a>  
