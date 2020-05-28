@@ -11,10 +11,18 @@ const sidebar = {
 			],
 		},
 		{
+			title: "Guild",
+			children: [
+				"/docs/Guild/",
+				"/docs/Guild/positionswap",
+				"/docs/Guild/presence"
+			],
+		},
+		{
 			title: "Member",
 			children: [
 				"/docs/Member/",
-				"/docs/Member/user",
+				"/docs/Member/user"
 			],
 		},
 		{
