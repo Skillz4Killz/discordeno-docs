@@ -1,6 +1,5 @@
 # Snowflake
 A Twitter Snowflake, expect the epoche is 2015-01-01T00:00:00.000Z:
----
 ```typescript
 If we have a snowflake '266241948824764416' we can represent it as binary:
 

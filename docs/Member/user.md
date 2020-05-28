@@ -1,11 +1,10 @@
 # User
 Represents a user on Discord.  
----
 | Properties <img width=1000/> | Functions <img width=1000/> |   
 | :--- | :--- |   
 | [id](#id) | [.avatarURL(size, format)](#avatarURL)
 | [username](#username) | [.hasPermissions(permissions)](#hasPermissions)
-| [discriminator](#discriminator) |
+| [discriminator](#discriminator) | WIP
 | [avatar](#avatar) |   
 | [bot](#bot) |   
 | [system](#system) |   
@@ -63,6 +62,6 @@ The user's email
 The flags on a user's account.
 > **Type:** *[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number)*  
 
-- ### premium_type
+- ### premiumType
 The type of Nitro subscription on a user's account.
 > **Type:** *[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number)*  

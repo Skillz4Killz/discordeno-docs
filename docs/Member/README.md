@@ -1,9 +1,9 @@
 # Member  
 Represents a server member.
----
+
 | Properties <img width=1000/> | Functions <img width=1000/> |   
 | :--- | :--- |   
-| [user](#user) | [addRole(roleID, Reason)](#addRole) |   
+| [user](#user) | [.addRole(roleID, Reason)](#addRole) |   
 | [nick](#nick) | [.removeRole(roleID, reason)](#removeRole) |   
 | [roles](#roles) | [.avatarURL(size, format)](#avatarURL) |   
 | [deaf](#deaf) | [.guild()](#guild) |   
@@ -76,15 +76,14 @@ Remove a role from the guild member
 The users custom avatar or the default avatar
 > | Parameter <img width=1000/> | Type <img width=1000/> | Description <img width=1000/> |  
 > | :--- | :--- | :--- |  
-> | size | [ImageURLOptions](/docs/TypeDefs/ImageURLOptions) | The ID of the role. |  
-> | format | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object) | The reason to be displayed in the Guild Audit Log. |  
+> | size | [ImageURLOptions](/docs/TypeDefs/ImageURLOptions) | The size of the Avatar (any power bof two between 16 and 4096) |  
+> | format | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object) | The filetype of the avatar |  
 > **Returns:** *[promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)*  
 
 - ### guild
 Gets the guild object from cache for this member. This is a method instead of a prop to preserve memory (WIP)
 > | Parameter <img width=1000/> | Type <img width=1000/> | Description <img width=1000/> |  
 > | :--- | :--- | :--- |  
-Audit Log. |  
 > **Returns:** *[promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)*  
 
 - ### kick

@@ -1,5 +1,4 @@
 # Getting Started
----
 
 Discordeno aims for a simple, easy and stress-free interaction with the Discord API. Always supporting the latest version to ensure stability, consistency and the prevention of backwards compatibility.
 
