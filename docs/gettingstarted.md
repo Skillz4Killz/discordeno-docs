@@ -1,11 +1,9 @@
 # Getting Started
 
-Discordeno aims for a simple, easy and stress-free interaction with the Discord API. Always supporting the latest version to ensure stability, consistency and the prevention of backwards compatibility.
-
-Prefer reading over using this documentation website? Discordeno has built in Documentation in your VSCode Workspace as you code! The entire libraries documentation is automatically available to you through IntelliSense.
+Discordeno aims for a simple, easy and stress-free interaction with the Discord API. Always supporting the latest version to ensure stability, consistency and the best developer experience.
 
 ## Links
-- [GitHub Repository](https://github.com/skillz4killz/discordeno)
+- [GitHub Repository](https://github.com/Skillz4Killz/Discordeno)
 - [Deno Page](https://deno.land/x/discordeno)
 - [Website](https://discordeno.js.org/)
 
@@ -25,7 +23,7 @@ Plenty of guides are available on how to create a Discord Bot Application.
 
 Now you've created an Application but it will need some code in order for it to be online. Thats when Discordeno comes in handy!
 
-> Make sure you store your tokens in a .env file and GIT Ignore it. **Don't share your bot token with anybody.**
+> Make sure you store your tokens in a file that is NOT deployed by adding it to the .gitignore file. **Don't share your bot token with anybody.**
 
 ## Installation
 
@@ -34,7 +32,7 @@ You can install Discordeno by importing:
 import Client from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v4/module/client.ts";
 ```
 
-## Example usage
+## Example Usage
 
 Starting with Discordeno is very simple, you can start from scratch without any boilerplates/frameworks: Add this snippet of code into a new TypeScript file:
 
@@ -63,37 +61,32 @@ Client(BotOptions);
 
 Alternatively, you can use boilerplate template repositories that were created by wonderful developers. This will get the base of your bot pre-built for you. Overtime, developers create other command frameworks for this library and they will be listed here:
 
-| Bot Name           | Developer          | Links | Description |
-|--------------------|--------------------|---------------------------------------------------------|-----|
+| Bot Name             | Developer         | Links                                                                                                           | Description                                                                           |
+| -------------------- | ----------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | Official Boilerplate | Skillz4Killz#4500 | [Github](https://github.com/Skillz4Killz/Discordeno-bot-template), [Support Server](https://discord.gg/J4NqJ72) | This is a very minimalistic design for a boilerplate for your bot to get you started. |
-| DenoBot            | NTM Nathan#0001    | [Github](https://github.com/ntm-development/DenoBot), [Support Server](https://discord.com/invite/G2rb53z) | Another boilerplate example of the first one, with more commands and improvements. |
+| DenoBot              | NTM Nathan#0001   | [Github](https://github.com/ntm-development/DenoBot), [Support Server](https://discord.com/invite/G2rb53z)      | Another boilerplate example of the first one, with more commands and improvements.    |
 
 Open Sourced Bots:
-| Bot Name           | Developer          | Links |
-|--------------------|--------------------|---------------------------------------------------------|
-| discordeno-mattis  | Mattis6666         | [Github](https://github.com/Mattis6666/discordeno-mattis/) |
-
-## Notes
-
-- We are always supporting the latest and greatest versions of JavaScript and TypeScript. There is no such thing as Backwards Compatibility. You can update Discordeno with the following command: `deno cache --reload mod.ts`,
-- This library does not support **Self Bots.** This is against the Discord Community Guidelines and can get you banned from using Discord if found creating and using one.
+| Bot Name          | Developer  | Links                                                      |
+| ----------------- | ---------- | ---------------------------------------------------------- |
+| discordeno-mattis | Mattis6666 | [Github](https://github.com/Mattis6666/discordeno-mattis/) |
 
 
 ## Tutorials
 Below you will find youtube playlists that display channels using Discordeno for their tutorials.
 
 Web-Mystery Tutorials:
-- <a href="https://web-mystery.com/articles/making-discord-bot-deno-and-discordeno" target="_blank">Making a Discord bot with Deno and Discordeno</a>  
-- <a href="https://web-mystery.com/articles/running-discord-bot-written-deno-docker" target="_blank">Running a Discord bot written in Deno in Docker</a>  
+- <a href="https://web-mystery.com/articles/making-discord-bot-deno-and-discordeno" target="_blank">Making a Discord bot with Deno and Discordeno</a>
+- <a href="https://web-mystery.com/articles/running-discord-bot-written-deno-docker" target="_blank">Running a Discord bot written in Deno in Docker</a>
 
 YouTube Tutorials:
 - Coming soon to [NTM Development](https://www.youtube.com/channel/UCkOFck-WCQtolha4NJuK7zA/)
 
----  
+---
 
 ## Development Team
 
-**Skills4Killz** (Creator and Developer)
+**Skillz4Killz** (Creator and Developer)
 
 - GitHub: [@Skillz4Killz](https://github.com/skillz4killz)
 
