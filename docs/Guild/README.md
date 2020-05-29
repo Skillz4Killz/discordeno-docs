@@ -12,13 +12,13 @@ Represents a guild
 | [afkChannelID](#afkChannelID) |  [.swapChannels()](#channelPositions) | 
 | [afkTimeout](#afkTimeout) |  [.getMember(id)](#getMember) | 
 | [embedEnabled](#embedEnabled) | [.editEmoji(id, options)](#editEmoji) | 
-| [embedChannelID](#embedChannelID) |
-| [verificationLevel](#verificationLevel) |  |   
-| [roles](#roles) |  |   
-| [emojis](#emojis) |  |   
-| [features](#features) |  |   
-| [mfaLevel](#mfaLevel) |  |   
-| [systemChannelID](#systemChannelID) |  |   
+| [embedChannelID](#embedChannelID) | [.deleteEmoji(id, options)](#deleteEmoji) | 
+| [verificationLevel](#verificationLevel) | [.createRole(options, reason)](#createRole) |   
+| [roles](#roles) | [.editRole(id, options)](#editRole) |    
+| [emojis](#emojis) | [.deleteRole(id)](#deleteRole) |  
+| [features](#features) | [.getRoles()](#getRoles) |   
+| [mfaLevel](#mfaLevel) | [.swapRoles(rolePositions)](#swapRoles) |     
+| [systemChannelID](#systemChannelID) |
 | [large](#large) |  |   
 | [unavailable](#unavailable) |  |   
 | [memberCount](#memberCount) |  |   
