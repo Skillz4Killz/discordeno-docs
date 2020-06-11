@@ -2,7 +2,11 @@
 
 Discordeno aims for a simple, easy and stress-free interaction with the Discord API. Always supporting the latest version to ensure stability, consistency and the best developer experience.
 
-## Links
+This website serves as the purpose for introducing Discordeno to developers. The full documentation for all the functions and methods can be visited by clicking the link below:
+
+# [View Documentation on Deno](https://doc.deno.land/https/deno.land/x/discordeno/mod.ts)
+
+## Useful Links
 - [GitHub Repository](https://github.com/Skillz4Killz/Discordeno)
 - [Deno Page](https://deno.land/x/discordeno)
 - [Website](https://discordeno.js.org/)
@@ -29,7 +33,7 @@ Now you've created an Application but it will need some code in order for it to 
 
 You can install Discordeno by importing:
 ```typescript
-import Client from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v4/module/client.ts";
+import Client from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v5/module/client.ts";
 ```
 
 ## Example Usage
@@ -37,20 +41,20 @@ import Client from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v4
 Starting with Discordeno is very simple, you can start from scratch without any boilerplates/frameworks: Add this snippet of code into a new TypeScript file:
 
 ```typescript
-import Client from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v4/module/client.ts";
-import { Intents } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v4/types/options.ts";
+import Client from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v5/module/client.ts";
+import { sendMessage } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v5/handlers/channel.ts";
+import { Intents } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v5/types/options.ts";
 
 const BotOptions = {
     token: "token",
-    botID: "client ID",
     intents: [Intents.GUILD_MESSAGES],
     eventHandlers: {
         ready: () => {
             console.log(`Logged!`);
         },
         messageCreate: (message) => {
-            if(message.content === "!ping"){
-                message.channel.sendMessage("Pong!");
+            if (message.content === "!ping") {
+                sendMessage(message.channel, "Pong");
             }
         }
     }
@@ -63,8 +67,8 @@ Alternatively, you can use boilerplate template repositories that were created b
 
 | Bot Name             | Developer         | Links                                                                                                           | Description                                                                           |
 | -------------------- | ----------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| Official Boilerplate | Skillz4Killz#4500 | [Github](https://github.com/Skillz4Killz/Discordeno-bot-template), [Support Server](https://discord.gg/J4NqJ72) | This is a very minimalistic design for a boilerplate for your bot to get you started. |
-| DenoBot              | NTM Nathan#0001   | [Github](https://github.com/ntm-development/DenoBot), [Support Server](https://discord.com/invite/G2rb53z)      | Another boilerplate example of the first one, with more commands and improvements.    |
+| Official Boilerplate | Skillz4Killz#4500 | [GitHub](https://github.com/Skillz4Killz/Discordeno-bot-template), [Support Server](https://discord.gg/J4NqJ72) | This is a very minimalistic design for a boilerplate for your bot to get you started. |
+| DenoBot              | NTM Nathan#0001   | [GitHub](https://github.com/ntm-development/DenoBot), [Support Server](https://discord.com/invite/G2rb53z)      | Another boilerplate example of the first one, with more commands and improvements.    |
 
 Open Sourced Bots:
 | Bot Name          | Developer  | Links                                                      |

@@ -4,7 +4,7 @@ heroImage: /images/Logo_Spaced.png
 heroText: Discordeno
 tagline: A Third Party Deno library for interacting with the Discord API.
 actionText: Start Building →
-actionLink: /docs/gettingstarted
+actionLink: /docs/introduction
 features:
 - title: Best TypeScript Support!
   details: First class support for Typescript! Never compile your code again in order to run it. Automated typings so they are never inaccurate or out of date.

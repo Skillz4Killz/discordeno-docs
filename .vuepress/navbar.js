@@ -5,7 +5,7 @@ const navbar = [
     },
     { 
         text: "Documentation",
-        link: "/docs/gettingstarted" 
+        link: "https://doc.deno.land/https/deno.land/x/discordeno/mod.ts" 
     },
     { 
         text: "Install", 
