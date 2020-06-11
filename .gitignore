@@ -1,0 +1,10 @@
+.DS_Store
+.lock
+node_modules
+
+# Log files
+npm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
