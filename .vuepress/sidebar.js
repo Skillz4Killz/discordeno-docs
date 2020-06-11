@@ -10,7 +10,6 @@ const sidebar = {
 				"/docs/Examples/Ping"
 			],
 		},
-
 	]
 }
 module.exports = sidebar;
