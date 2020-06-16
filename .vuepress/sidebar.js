@@ -24,10 +24,22 @@ const sidebar = {
 		},
 		{
 			title: "Topics (WIP)",
+			children: [
+			"/docs/Topics/Embeds",
+			"/docs/Topics/Permissions",
+			"/docs/Topics/Reactions",
+			"/docs/Topics/Roles",
+			"/docs/Topics/Mentions",
+			"/docs/Topics/Fetching"
+			]
 		},
 		{
-			title: "Miscallaneous (WIP)",
-		},
+		title: "Miscallaneous (WIP)",
+			children: [
+				"/docs/Miscallaneous/Support",
+				"/docs/Miscallaneous/UpdatingFromOldVersion",
+			]
+		}
 	]
 }
 module.exports = sidebar;
