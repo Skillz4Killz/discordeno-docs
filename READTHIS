@@ -5,3 +5,10 @@ This documentation being developed by NTM Nathan (@ NTM Development) for the Dis
 The guide is not meant to be 100% complete and can contain errors. If any error or suggestion, please make a issues report or a pull request.
 
 Contact me NTM Nathan#0001 on Discord if you really need to. 
+
+
+Note for NTM Nathan:
+Due to Issues with Git (Yes I imported the project). 
+
+Commit and Pull as normal
+But push the commits in the CLI with `git push origin master -f` is the only working way atm.
